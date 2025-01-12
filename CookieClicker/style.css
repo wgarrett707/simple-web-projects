@@ -1,0 +1,35 @@
+#square {
+    display: flex;
+    position: relative;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter {
+    display: flex;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#cps {
+    display: block;
+}
+
+.item {
+    padding: 20px;
+    border-radius: 7px;
+    border: 5px solid maroon;
+    background-color: tomato;
+    margin: 10px 0;
+    width: fit-content;
+    color: white;
+}
+
+.tier {
+    display: block;
+    color: maroon;
+    font-weight: bold;
+}

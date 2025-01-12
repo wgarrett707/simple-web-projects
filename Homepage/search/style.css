@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.headtab {
+    text-align: center;
+    width: 100vw;
+}
+
+.website_title {
+    font-size: 32px;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a.headnav {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    display: inline-block;
+    padding: 0 10vw;
+    margin: 2vh 0;
+    border: solid aqua 4px;
+    background-color: blue;
+    color: aqua;
+    transition: background-color 0.5s ease;
+}
+
+.website_title:hover {
+    color: blue;
+}
+
+a.headnav:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+.content {
+    padding: 50px;
+    margin: 0 auto;
+    width: 50vw;
+    background-color: rgb(181, 181, 181);
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+img.content-photo {
+    display: block;
+    margin: 5vh auto;
+    width: 35vw;
+    background-color: black;
+}
+
+img.small {
+    width: 20vw;
+}
+
+video.content-video {
+    display: block;
+    margin: 5vh auto;
+    width: 35vw;
+    background-color: black;
+}

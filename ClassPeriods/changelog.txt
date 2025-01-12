@@ -1,0 +1,25 @@
+Does NOT follow Semantic Versioning
+
+## [Unreleased]
+- "Resources" panel with additional links
+- Text links replaced with clickable images
+
+REQUIRES SERVER:
+- A feed from Lockport's Twitter or the current links on the student page
+- The ability to sign in and mark down your own classes and links
+- Lots of customization
+
+### [1.0.1] 2022/01/17
+## Changed
+- The calendars and classroom links for second semester
+- The clock is in standard format, not military
+
+## Fixed
+- Bug that made first period start five minutes late
+
+#*#*#* [1.0.0] 2022/01/07 *#*#*#
+## Added
+- Clock
+- Name of class currently in
+- Links to Google Classroom and a calendar for each class
+- Progress bar indicating how much of the class is left

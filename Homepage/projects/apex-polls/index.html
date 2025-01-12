@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <a class="website_title" href="/">wilb.org</a>
+    <div class="headtab">
+    	<a class="headnav" href="/projects/">Projects</a>
+    	<a class="headnav" href="/about/">About</a>
+    	<a class="headnav" href="/search/">Search</a>
+	    </div>
+    <div class="content">
+			<div class="section-introduction">
+				<h2>Apex Learning Poll Manipulation</h2>
+				<p>When I was taking a summer course on Apex Learning, an online learning tool, I noticed their repeated use of student polls. Basically, on some of the reading materials they have, they throw in some multiple-choice polls like the one below just for the fun of it. After you answer, it shows you how many people responded with each choice.</p>
+				<p>(image)</p>
+				<p>However, if you were to simply reload the page, you could just answer the poll again, thus getting two votes. What about a third time? A fourth time? There&rsquo;s absolutely no limit on how many poll votes I could send, so I got an idea.</p>
+				<p>I wrote a script in Selenium to automate the process of voting on a particular poll. This process involved submitting a particular choice, hitting the &ldquo;next&rdquo; button, hitting the &ldquo;back&rdquo; button, and repeating the process. I found that refreshing the page took longer since it would bring you back to the start of the article instead of back to the same page.</p>
+				<p>Here&rsquo;s the poll before I started my script. Notice how the bolded choice has the least votes out of any other option.</p>
+				<p>(image)</p>
+				<p>After running my script for a couple of hours, you can see that the bolded choice now is the leading choice!</p>
+				<p>(image)</p>
+				<p>For those worried about the ethics of this project, I only executed the script on one poll to prove a point&mdash;no other poll on the entire platform was affected. I can&rsquo;t check and see if the poll still appears this way since my U.S. History course has expired, but I wouldn&rsquo;t be surprised if they haven&rsquo;t noticed.</p>
+				<p>I feel like this problem could very easily be prevented: just give one account one vote on each poll through the use of a database. All things considered, though, I can&rsquo;t really blame the developers too much for not going this route. They&rsquo;re purely for-fun polls that have no influence whatsoever on learning the assigned curriculum, so even if they were all inaccurate, it wouldn&rsquo;t really matter.</p>
+				<p>Again, I have no clue if they patched this issue since I have no way to check. I won&rsquo;t be including the script for this reason, but if you really wanted to do the same, manipulating their polls is nothing hard to accomplish. </p>
+				</div>
+			</div>
+		</body>
+	</html>

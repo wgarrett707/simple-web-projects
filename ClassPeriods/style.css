@@ -1,0 +1,75 @@
+/* imports the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  /* prevents padding, borders, etc. from affecting width of elements */
+  box-sizing: border-box;
+}
+
+body {
+    /* sets the font of all the body text to Roboto */
+    font-family: 'Roboto', sans-serif;
+    /* hides the scroll bar */
+    overflow: hidden;
+    /* gets rid of margins */
+    margin: 0;
+}
+
+.centered {
+  /* changes some of the formatting */
+  display: flex;
+  /* sets elements to appear vertically since horizontal is default */
+  flex-direction: column;
+  /* centers elements horizontally */
+  align-items: center;
+  /* centers elements vertically */
+  justify-content: center;
+  /* sets height to 100% of the browser height so that centering works correctly */
+  height: 100vh;
+}
+
+.clockDiv {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.arrowUp {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.arrowUp.openNav {
+  transform: translateY(-200px)
+}
+
+.resourcesLink {
+  padding: 30px 50px;
+  border: 4px solid black;
+  margin: 20px;
+}
+
+#className {
+  color: firebrick;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#classBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+}
+
+#classBarProgress {
+  width: 1%;
+  height: 50px;
+  background-color: green;
+}
+
+#changelog {
+  right: 10px;
+  bottom: 10px;
+  position: fixed;
+}
